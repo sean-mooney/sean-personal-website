@@ -19,13 +19,14 @@ body {
 	text-decoration: none;
 }
 
+#nav a:visited{
+	color: black;
+}
+
 #nav a:hover {
 	color: white;
 }
 
-#nav a:visited{
-	color: white;
-}
 
 h1 {
 	text-align: center;
