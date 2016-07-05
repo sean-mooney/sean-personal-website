@@ -3,31 +3,79 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
-#nav {
-	padding: 15px;
-	background-color: #f2f2f2;
-	background-opacity: 50%;
-	text-align: center;
-	color: black;
-	font-weight: bold;
-
-
+div {
+	display: block;
 }
 
-#nav a:link{
-	color: black;
+.name h1 {
+	margin-top: 150px;
+	padding-right: 40px;
+	text-align: right;
+	margin-bottom: 0px;
+}
+
+.name h2 {
+	font-style: italic;
+	margin-top: 5px;
+	padding-right: 40px;
+	text-align: right;
+	margin-bottom: 100px;
+	font-size: 20px;
+}
+
+/*navbar*/
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.container {
+	background-color: #eaeaea;
+	line-height: 0;
+	text-align: center;
+}
+
+#navbar ul#nav{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	background-color: #eaeaea;
+	border-right: 1px solid #111;
+}
+
+#nav a{
+	display: block;
 	text-decoration: none;
-}
-
-#nav a:visited{
+	padding: 15px 15px 15px 15px;
+	border-left: 1px solid #222;
 	color: black;
 }
 
-#nav a:hover {
-	color: white;
+#nav a:hover{
+	background: white;
+	text-decoration: none;
+	border-left: 1px solid #111;
 }
 
 
-h1 {
-	text-align: center;
+#nav li {
+	display: block;
+    float: left;
+}
+
+/*about*/
+
+#aboutbox{
+	background-color: #ffcc99;
+}
+
+#about {
+	margin-left: 100px;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	margin-right: 100px;
 }
