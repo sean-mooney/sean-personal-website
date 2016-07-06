@@ -1,5 +1,5 @@
 body {
-	background-color: #FFFCFC;
+	background-color: #0099ff;
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -32,7 +32,7 @@ div {
 }
 
 .container {
-	background-color: #eaeaea;
+	background-color: #0099ff;
 	line-height: 0;
 	text-align: center;
 }
@@ -41,24 +41,21 @@ div {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	text-align: center;
 	position: relative;
-	background-color: #eaeaea;
-	border-right: 1px solid #111;
+	background-color: #0099ff;
+	
 }
 
 #nav a{
 	display: block;
 	text-decoration: none;
 	padding: 15px 15px 15px 15px;
-	border-left: 1px solid #222;
 	color: black;
 }
 
 #nav a:hover{
 	background: white;
 	text-decoration: none;
-	border-left: 1px solid #111;
 }
 
 
@@ -70,12 +67,12 @@ div {
 /*about*/
 
 #aboutbox{
-	background-color: #ffcc99;
+	background-color: #ff9933;
 }
 
 #about {
-	margin-left: 100px;
+	margin-left: 300px;
 	padding-top: 10px;
 	padding-bottom: 100px;
-	margin-right: 100px;
+	margin-right: 250px;
 }
