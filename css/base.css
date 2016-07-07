@@ -1,6 +1,6 @@
 body {
-	background-color: #17171c;
-	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #f0f0f0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 
@@ -8,16 +8,16 @@ body {
 .header {
 	position: relative;
 	z-index: -1;
-}
-
-.header img {
-	width: 100%;
-	height: auto;
+	background: url(../img/banner2.jpg) no-repeat center top;
+	background-size: 100% 100%;
+	min-height: 700px;
+	padding-top: 50px;
 }
 
 .header h1 {
-	margin-top: 150px;
-	padding-right: 40px;
+	font-size: 100px;
+	padding-top: 400px;
+	padding-right: 100px;
 	text-align: right;
 	margin-bottom: 0px;
 	color: white;
@@ -25,12 +25,12 @@ body {
 }
 
 .header h2 {
+	font-size: 50px;
 	font-style: italic;
 	margin-top: 5px;
-	padding-right: 40px;
+	padding-right: 120px;
 	text-align: right;
-	margin-bottom: 100px;
-	font-size: 20px;
+	margin-bottom: 0px;
 	color: white;
 	z-index: 100;
 }
@@ -44,9 +44,10 @@ body {
 }
 
 .container {
-	background-color: #17171c;
+	background-color: #f0f0f0;
 	line-height: 0;
-	text-align: center;
+	text-align: right;
+	padding-right: 50px;
 }
 
 #navbar ul#nav{
@@ -54,20 +55,21 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	background-color: #17171c;
+	background-color: #f0f0f0;
 	
 }
 
 #nav a{
+	font-size: 12px;
 	display: block;
 	text-decoration: none;
 	padding: 15px 15px 15px 15px;
-	color: white;
+	color: black;
 }
 
 #nav a:hover{
-	color: #17171c;
-	background: white;
+	color: white;
+	background: #ff5050;
 	text-decoration: none;
 }
 
@@ -80,12 +82,28 @@ body {
 /*about*/
 
 #aboutbox{
-	background-color: #ff9933;
+	background-color: #ffffe6;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 #about {
-	margin-left: 300px;
+	margin-left: 100px;
 	padding-top: 10px;
-	padding-bottom: 100px;
-	margin-right: 250px;
+	padding-bottom: 75px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+}
+
+#resume {
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: white;
+}
+
+#resumebox {
+	margin-left: 100px;
+	margin-right: 100px;
 }
