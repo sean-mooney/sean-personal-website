@@ -79,8 +79,12 @@ body {
 
 #aboutbox{
 	background-color: #ffffe6;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#aboutbox table {
+	border: 0px;
 }
 
 #about {
@@ -94,12 +98,26 @@ body {
 #resume {
 	margin-top: 0px;
 	padding-top: 20px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 300px;
+	margin-right: 300px;
 	background-color: white;
+}
+
+#resume h2 {
+	color: #ff5050;
 }
 
 #resumebox {
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+#resume degree {
+	color: #ff5050;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#resume date {
+	float: right;
 }
