@@ -105,6 +105,8 @@ body {
 	border-radius: 50%;
 }
 
+/* RESUME */
+
 .resume {
 	margin-top: 0px;
 	padding-top: 20px;
@@ -131,4 +133,21 @@ body {
 
 .resume date {
 	float: right;
+}
+
+.skills {
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color: white;
+}
+
+.skills .container {
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color: white;
+	
 }
