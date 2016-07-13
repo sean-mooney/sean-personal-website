@@ -4,18 +4,21 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Sean Mooney</title>
-		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" media="screen and (min-width: 501px)">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 500px)">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
 	</head>
 
 	<body>
-		<div id="navbar">
-			<div class="container">
-				<ul id="nav" class="nav">
+		<div class="navbar">
+			<div class="navcontainer">
+				<ul class="navlist">
 					<li><a href="#about" title="About"><i class="fa fa-user fa-2x" aria-hidden="true"> About</i></a></li>
-					<li><a href="#resume" title="Resume"><i class="fa fa-file fa-2x" aria-hidden="true"> Resume</i></a></li>
 					<li><a href="#skills" title="Skills"><i class="fa fa-cogs fa-2x" aria-hidden="true"> Skills</i></a></li>
+					<li><a href="#resume" title="Resume"><i class="fa fa-file fa-2x" aria-hidden="true"> Resume</i></a></li>
 					<li><a href="#contact" title="Contact"><i class="fa fa-envelope fa-2x" aria-hidden="true"> Contact</i></a></li>
 					<li><a href="https://github.com/sean-mooney" title="GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"> GitHub</i></a></li>
 				</ul>
@@ -28,32 +31,75 @@
 		</div>
 
 
-		<div id="aboutbox">
-		<table>
-			<tr>
-				<th><h2>Sean Mooney</h2></th>
-				<th><h2>About Me</h2></th>
-			</tr>
-		</table>
-			<div id="about">
-				<h2>About Me</h2>
-					<!--Add personal picture here -->
-					<p>I recently graduated from Norwalk Community College with a degree in Computer Science and am continuing my education at the University of Connecticut. I've worked on a number of projects throughout the years, ranging from mobile applications to my own video games and finally settling in web development. <!-- Under Construction --></p>
+		<div class="aboutbox" id="about">
+			<div class="about-container">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="img/banner.png" alt="hi"/>
+					</div>
+
+					<div class="col-md-8">
+						<h2>About Me</h2>
+						<p>I recently graduated from Norwalk Community College with a degree in Computer Science and am continuing my education at the University of Connecticut. I've worked on a number of projects throughout the years, ranging from mobile applications to my own video games and finally settling in web development.
+						I recently graduated from Norwalk Community College with a degree in Computer Science and am continuing my education at the University of Connecticut. I've worked on a number of projects throughout the years, ranging from mobile applications to my own video games and finally settling in web development. <!-- Under Construction --></p>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div id="resume">
-			<div id="resumebox">
-				<h2>Education</h2>
-				<degree>Bachelor's in Computer Science (In Progress)</degree>
-				<date>May 2018</date>
-				<p>University of Connecticut</p><br>
-				<degree>Associate's in Computer Science</degree>
-				<date>December 2015</date>
-				<p>Norwalk Community College</p><br>
+		<div class="skills" id="skills">
+			<div class="container">
+				<div class="row">
+				
+					<h3>Skills</h3>
 
+					<div class="col-md-6">
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Java</li>
+							<li>Javascript</li>
+						</ul>
+					</div>
+
+					<div class="col-md-6">
+						<ul>
+							<li>MySQL</li>
+							<li>Swift</li>
+							<li>Adobe Photoshop CS6</li>
+							<li>Microsoft Office</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div><br>
+		</div>
+
+		<div class="resume" id="resume">
+			<div class="resumebox">
+				<h2>Education</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<degree>Bachelor's in Computer Science (In Progress)</degree>
+						<p>University of Connecticut</p><br>
+					</div>
+					<div class="col-md-4">
+						<date>May 2018</date>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+					<degree>Associate's in Computer Science</degree>
+					<p>Norwalk Community College</p><br>
+					</div>
+
+					<div class="col-md-4">
+						<date>December 2015</date>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
 
 
 	</body>
