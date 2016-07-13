@@ -46,7 +46,7 @@ body {
 	padding-right: 50px;
 }
 
-.navbar ul.nav{
+.navbar ul.navlist{
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
@@ -55,7 +55,7 @@ body {
 	
 }
 
-.nav a{
+.navlist a{
 	font-size: 12px;
 	display: block;
 	text-decoration: none;
@@ -63,14 +63,14 @@ body {
 	color: black;
 }
 
-.nav a:hover{
+.navlist a:hover{
 	color: white;
 	background: #ff5050;
 	text-decoration: none;
 }
 
 
-.nav li {
+.navlist li {
 	display: block;
     float: left;
 }
