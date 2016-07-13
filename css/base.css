@@ -32,21 +32,21 @@ body {
 }
 
 /*navbar*/
-#navbar {
+.navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 }
 
-.container {
+.navcontainer {
 	background-color: #f0f0f0;
 	line-height: 0px;
 	text-align: right;
 	padding-right: 50px;
 }
 
-#navbar ul#nav{
+.navbar ul.nav{
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
@@ -55,7 +55,7 @@ body {
 	
 }
 
-#nav a{
+.nav a{
 	font-size: 12px;
 	display: block;
 	text-decoration: none;
@@ -63,57 +63,70 @@ body {
 	color: black;
 }
 
-#nav a:hover{
+.nav a:hover{
 	color: white;
 	background: #ff5050;
 	text-decoration: none;
 }
 
 
-#nav li {
+.nav li {
 	display: block;
     float: left;
 }
 
 /*about*/
 
-#aboutbox{
+.aboutbox{
 	background-color: #ffffe6;
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 
-#about {
+.about {
+	text-align: center;
 	margin-left: 100px;
-	padding-top: 10px;
-	padding-bottom: 75px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	margin-right: 100px;
 	margin-bottom: 0px;
 }
 
-#resume {
+.about h2 {
+	text-align: center;
+}
+
+.about img {
+	display: inline-block;
+	width: 55%;
+	height: 55%;
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+.resume {
 	margin-top: 0px;
 	padding-top: 20px;
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-left: 250px;
+	margin-right: 250px;
 	background-color: white;
 }
 
-#resume h2 {
+.resume h2 {
 	color: #ff5050;
 }
 
-#resumebox {
+.resumebox {
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
-#resume degree {
+.resume degree {
 	color: #ff5050;
 	font-size: 18px;
 	font-weight: bold;
 }
 
-#resume date {
+.resume date {
 	float: right;
 }
