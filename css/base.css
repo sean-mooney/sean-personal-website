@@ -155,3 +155,28 @@ body {
 .skills h2 {
 	margin-left: 20px;
 }
+
+/* MY Refactored Code */
+
+.nopadding{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+@media (min-width: 768px) {
+	.col-sm-6{
+		width: 33%;
+		float: left;
+		position: relative;
+		min-height: 1px;
+	}
+
+}
+
+.edu_line{
+	height: 20px;
+}
+
+.edu_cont_align{
+	margin-left: 20px!important;
+}
