@@ -4,7 +4,6 @@ body {
 
 }
 
-
 .header {
 	background: url(../img/banner2.jpg);
 	background-size: 100% 100%;
@@ -37,6 +36,7 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 100;
 }
 
 .navcontainer {
@@ -109,7 +109,7 @@ body {
 
 .resume {
 	margin-top: 0px;
-	padding-top: 20px;
+	padding-top: 40px;
 	margin-left: 250px;
 	margin-right: 250px;
 	background-color: white;
@@ -117,7 +117,8 @@ body {
 
 .resume h2 {
 	color: #ff5050;
-	padding-bottom: 25px;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 .resumebox {
@@ -137,21 +138,26 @@ body {
 
 .skills {
 	margin-top: 0px;
-	padding-top: 20px;
+	padding-top: 40px;
 	margin-left: 250px;
 	margin-right: 250px;
 	background-color: white;
-}
 
-.skills .container {
-	margin-top: 0px;
-	padding-top: 20px;
-	margin-left: 250px;
-	margin-right: 250px;
-	background-color: white;
-	
 }
 
 .skills h2 {
-	margin-left: 20px;
+	color: #ff5050;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.skills ul {
+	font-size: 18px;
+	list-style-type: none;
+}
+
+.skills li {
+
 }

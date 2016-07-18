@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
     $("#skills-scroll").click(function(event){     
         $('html,body').animate({
-        	scrollTop:$("#about").offset().top
+        	scrollTop:$("#skills").offset().top
         }, 500);
     });
 });
@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
     $("#resume-scroll").click(function(event){     
         $('html,body').animate({
-        	scrollTop:$("#about").offset().top
+        	scrollTop:$("#resume").offset().top
         }, 500);
     });
 });
@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
     $("#contact-scroll").click(function(event){     
         $('html,body').animate({
-        	scrollTop:$("#about").offset().top
+        	scrollTop:$("#contact").offset().top
         }, 500);
     });
 });
