@@ -161,3 +161,9 @@ body {
 .skills li {
 
 }
+
+.contact {
+	padding-top: 25px;
+	color: white;
+	background-color: #ff5050;
+}
