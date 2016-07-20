@@ -81,7 +81,7 @@ body {
 	color: white;
 }
 
-.about-container {
+.about .container {
 	text-align: center;
 	margin-left: 10px;
 	padding-top: 50px;
@@ -96,8 +96,8 @@ body {
 
 .aboutbox img {
 	display: inline-block;
-	width: 55%;
-	height: 55%;
+	width: 25%;
+	height: 25%;
 	border: 5px solid white;
 	border-radius: 50%;
 }
@@ -110,7 +110,7 @@ body {
 	background-color: #f2f2f2;
 }
 
-.resume h2 {
+.resume h3 {
 	color: #ff5050;
 	padding-top: 0px;
 
@@ -131,6 +131,8 @@ body {
 	float: right;
 }
 
+
+
 .skills {
 	margin-top: 0px;
 	padding-top: 20px;
@@ -144,6 +146,9 @@ body {
 	
 }
 
-.skills h2 {
+.skills h3 {
 	margin-left: 20px;
 }
+
+
+
