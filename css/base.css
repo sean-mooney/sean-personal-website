@@ -1,7 +1,6 @@
 body {
 	background-color: #cccccc;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 14px;
 
 }
 
@@ -57,7 +56,7 @@ body {
 }
 
 .navlist a{
-	font-size: 12px;
+	font-size: 25px;
 	display: block;
 	text-decoration: none;
 	padding: 15px 15px 15px 15px;
@@ -70,11 +69,13 @@ body {
 	text-decoration: none;
 }
 
-
 .navlist li {
 	display: block;
     float: left;
 }
+
+
+
 
 /*about*/
 
@@ -199,7 +200,7 @@ body {
 	font-weight: bold;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1480px) {
 	.aboutbox{
 		background-color: #1a9cff;
 		color: white;
@@ -222,5 +223,40 @@ body {
 		background-color: white;
 		padding-bottom: 50px;
 
+	}
+}
+
+@media (max-width: 1200px) {
+	.header {
+		background-size: 100% 100%;
+		min-height: 500px;
+		padding-top: 50px;
+	}
+
+	.header h1{
+		font-size: 75px;
+		padding-top: 250px;
+		padding-right: 100px;
+		text-align: right;
+		margin-bottom: 0px;
+		color: white;
+	}
+
+	.header h2 {
+		font-size: 40px;
+		font-style: italic;
+		margin-top: 5px;
+		padding-right: 120px;
+		text-align: right;
+		margin-bottom: 0px;
+		color: white;
+	}
+	
+}
+
+@media (max-width: 1000px) {
+	.navcontainer{
+		padding-right: 0px;
+		text-align: center;
 	}
 }
