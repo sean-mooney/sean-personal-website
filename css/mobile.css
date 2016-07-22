@@ -1,20 +1,18 @@
 body {
-	background-color: #f0f0f0;
+	background-color: #cccccc;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 
 .header {
-	background: url(../img/banner2.jpg) no-repeat;
-	background-size: 100% 100%;
-	padding-top: 50px;
+	background-color: black;
+	padding-bottom: 100px;
 }
 
 .header h1 {
-	font-size: 50px;
-	padding-top: 150px;
-	padding-right: 20px;
-	text-align: right;
+	font-size: 45px;
+	padding-top: 100px;
+	text-align: center;
 	margin-bottom: 0px;
 	color: white;
 }
@@ -22,12 +20,10 @@ body {
 .header h2 {
 	font-size: 25px;
 	font-style: italic;
-	margin-top: 5px;
-	padding-right: 30px;
-	text-align: right;
-	padding-bottom: 20px;
-	margin-bottom: 0px;
+	margin-top: 20px;
+	text-align: center;
 	color: white;
+
 }
 
 /*navbar*/
@@ -40,9 +36,10 @@ body {
 }
 
 .navcontainer {
-	background-color: #cccccc;
+	background-color: #f0f0f0;
 	line-height: 0px;
 	text-align: center;
+	padding-right: 0px;
 }
 
 .navbar ul.navlist{
@@ -50,12 +47,12 @@ body {
 	margin: 0px;
 	padding: 0px;
 	position: relative;
-	background-color: #cccccc;
+	background-color: #f0f0f0;
 	
 }
 
 .navlist a{
-	font-size: 5px;
+	font-size: 13px;
 	display: block;
 	text-decoration: none;
 	padding: 15px 15px 15px 15px;
@@ -74,53 +71,65 @@ body {
     float: left;
 }
 
+
+
+
 /*about*/
 
 .aboutbox{
 	background-color: #1a9cff;
+	margin-left: 0px;
+	margin-right: 0px;
 	color: white;
 }
 
-.about .container {
-	text-align: center;
-	margin-left: 10px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-right: 10px;
+.about{
+	margin-left: 100px;
+	padding-top: 85px;
+	padding-bottom: 95px;
+	margin-right: 100px;
 	margin-bottom: 0px;
+	font-size: 18px;
 }
 
-.aboutbox h2 {
-	text-align: center;
-}
-
-.aboutbox img {
-	display: inline-block;
-	width: 25%;
-	height: 25%;
-	border: 5px solid white;
-	border-radius: 50%;
+.aboutbox h3 {
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 /* RESUME */
 
 .resume {
 	margin-top: 0px;
-	padding-top: 20px;
-	background-color: #f2f2f2;
+		margin-left: 0px;
+		margin-right: 0px;
+	background-color: white;
 }
 
 .resume h3 {
 	color: #ff5050;
 	padding-top: 0px;
+	margin-top: 0px;
+}
 
+.resume p {
+	padding-bottom: 30px;
+	font-style: italic;
 }
 
 .resumebox {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 0px;
+	padding-bottom: 30px;
 }
 
+.education {
+	padding-bottom: 75px;
+}
+.certifications {
+	padding-bottom: 75px;
+}
 .resume degree {
 	color: #ff5050;
 	font-size: 18px;
@@ -131,24 +140,78 @@ body {
 	float: right;
 }
 
-
+.description p {
+	font-style: normal;
+}
 
 .skills {
 	margin-top: 0px;
-	padding-top: 20px;
+	padding-top: 75px;
+		margin-left: 0px;
+		margin-right: 0px;
 	background-color: white;
-}
+	padding-bottom: 25px;
 
-.skills .container {
-	margin-top: 0px;
-	padding-top: 20px;
-	background-color: white;
-	
 }
 
 .skills h3 {
-	margin-left: 20px;
+	color: #ff5050;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.skills ul {
+	font-size: 18px;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-right: 0px;
+}
+
+.skills ul li {
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+    border-radius: 25px;
+	border: 2px solid #cccccc;
+}
+
+.skills i {
+	padding-right: 5px;
+	float: right;
+	color: #1a9cff;
 }
 
 
+.contact {
+	padding-top: 25px;
+	padding-bottom: 150px;
+	color: white;
+	background-color: #ff5050;
+}
 
+.email-label {
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+@media (max-width: 525px) {
+	.navlist i {
+		display: none;
+	}
+
+	.navlist a{
+		font-size: 10px;
+		display: block;
+		text-decoration: none;
+		padding: 15px 8px 15px 8px;
+		color: black;
+	}
+
+	.header {
+	background-color: black;
+	padding-bottom: 30px;
+}
+}
