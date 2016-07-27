@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
     $("#skills-scroll").click(function(event){     
         $('html,body').animate({
-        	scrollTop:$("#skills").offset().top
+        	scrollTop:$("#skills").offset().top -25
         }, 500);
     });
 });
