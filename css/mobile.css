@@ -48,7 +48,7 @@ body {
 	padding: 0px;
 	position: relative;
 	background-color: #f0f0f0;
-	
+
 }
 
 .navlist a{
@@ -162,28 +162,20 @@ body {
 	margin-top: 0px;
 }
 
-.skills ul {
-	font-size: 18px;
-	list-style-type: none;
-	padding-left: 0px;
-	margin-right: 0px;
-}
-
-.skills ul li {
-	padding-left: 20px;
-	padding-bottom: 15px;
-	padding-top: 20px;
-	margin-bottom: 10px;
-    border-radius: 25px;
-	border: 2px solid #cccccc;
+.skills .skill {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .skills i {
-	padding-right: 5px;
-	float: right;
-	color: #1a9cff;
+  font-size: 100px;
 }
 
+hr {
+  margin-left: 40px;
+  margin-right: 40px
+}
 
 .contact {
 	padding-top: 25px;
